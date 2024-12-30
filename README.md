@@ -12,11 +12,16 @@ curl -L https://raw.githubusercontent.com/nbprg/np_reff_v2/refs/heads/main/app.p
 - After successfully run app like this 👇
 ![Server Creaded in localhost](https://raw.githubusercontent.com/nbprg/np_chacker/refs/heads/main/IMG_20241230_221939.jpg)
 - open Another console (new session of terminal)
-
+- open txt file to save your account mail & password `nano accounts.txt` then save following format : `mail|password`
+- save account one by one and close by `ctrl` + `x` `y`
 ```
-python
+python get_token.py
 ```
+- Its ask for api key, input key (mention in upper image)
+- then copy web url (mention on image) and browse it any browser.
+- don't stop browser after token script prossing
 - then run to get info of your Nodepay accounts
 ```
-python
+python info.py
 ```
+- if all done, its Prossess successfully.
