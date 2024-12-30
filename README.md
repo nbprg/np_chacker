@@ -25,9 +25,13 @@ python get_token.py
 python info.py
 ```
 - if all done, its Prossess successfully.
-## Platform to contact me
+## Platform to join with us
 - Telegram channel : @cryp2xyz
 - YouTube channel  : @nbprg
+
+## Contact with me 
+- Email    : novbh091@gmail.com
+- Telegram : @TataCuto
 
 ## Support My work
 - Ton & Ton(usdt) : UQAwjEnyMMcj-UsoZ-GAvPBVyOMJPzEXSzsgmw1ysINrn8r7
