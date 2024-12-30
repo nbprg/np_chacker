@@ -1,7 +1,12 @@
 - its a multiple accounts cracker tools for nodepay.
 - if you have multiple accounts this tools for you
 ## installation 
-
+```
+git clone https://github.com/nbprg/np_chacker
+```
+```
+cd np_chacker
+```
 first create a local server to get cloudfire Captcha token (its required)
 ```
 pip install flask requests
