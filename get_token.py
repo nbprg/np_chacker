@@ -1,5 +1,6 @@
 import requests
 import os, sys
+import time
 if sys.platform.startswith('win'):
         os.system('cls')
 else:
@@ -54,7 +55,7 @@ for accaunt in accaunts_list:
     captcha_token = get_token()
     token_data = login_acccaunts(email, password, captcha_token)
     try:
-         token = response_data['data']['token']
+         token = token_data['data']['token']
          open('token.txt','a').write(token+'\n')
          print('Token Saved Successfull ')
     except:
